@@ -1,7 +1,7 @@
-package com.rabbitmq.demo.controller;
+package org.abdulrahman_rashwan.rabbitmq.controller;
 
-import com.rabbitmq.demo.dto.OrderDTO;
-import com.rabbitmq.demo.service.OrderService;
+import org.abdulrahman_rashwan.rabbitmq.dto.OrderDTO;
+import org.abdulrahman_rashwan.rabbitmq.service.OrderService;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

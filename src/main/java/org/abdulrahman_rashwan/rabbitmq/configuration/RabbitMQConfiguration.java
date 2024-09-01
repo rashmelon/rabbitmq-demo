@@ -1,6 +1,6 @@
-package com.rabbitmq.demo.configuration;
+package org.abdulrahman_rashwan.rabbitmq.configuration;
 
-import com.rabbitmq.demo.listener.OrderListener;
+import org.abdulrahman_rashwan.rabbitmq.listener.OrderListener;
 import org.springframework.amqp.core.*;
 import org.springframework.amqp.rabbit.connection.ConnectionFactory;
 import org.springframework.amqp.rabbit.listener.MessageListenerContainer;

@@ -1,4 +1,4 @@
-package com.rabbitmq.demo.dto;
+package org.abdulrahman_rashwan.rabbitmq.dto;
 
 import lombok.Data;
 

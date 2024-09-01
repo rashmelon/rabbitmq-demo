@@ -1,4 +1,4 @@
-package com.rabbitmq.demo.controller;
+package org.abdulrahman_rashwan.rabbitmq.controller;
 
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.web.bind.annotation.PostMapping;

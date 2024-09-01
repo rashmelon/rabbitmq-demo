@@ -1,6 +1,6 @@
-package com.rabbitmq.demo.service;
+package org.abdulrahman_rashwan.rabbitmq.service;
 
-import com.rabbitmq.demo.dto.OrderDTO;
+import org.abdulrahman_rashwan.rabbitmq.dto.OrderDTO;
 
 public interface OrderService {
     void create(OrderDTO orderDTO);

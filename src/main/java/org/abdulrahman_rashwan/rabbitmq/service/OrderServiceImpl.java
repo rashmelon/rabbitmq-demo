@@ -1,11 +1,11 @@
-package com.rabbitmq.demo.service;
+package org.abdulrahman_rashwan.rabbitmq.service;
 
-import com.rabbitmq.demo.dto.OrderDTO;
+import org.abdulrahman_rashwan.rabbitmq.dto.OrderDTO;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.stereotype.Service;
 
-import static com.rabbitmq.demo.configuration.RabbitMQConfiguration.ORDER_EXCHANGE;
-import static com.rabbitmq.demo.configuration.RabbitMQConfiguration.ORDER_ROUTING_KEY;
+import static org.abdulrahman_rashwan.rabbitmq.configuration.RabbitMQConfiguration.ORDER_EXCHANGE;
+import static org.abdulrahman_rashwan.rabbitmq.configuration.RabbitMQConfiguration.ORDER_ROUTING_KEY;
 
 @Service
 public class OrderServiceImpl implements OrderService {

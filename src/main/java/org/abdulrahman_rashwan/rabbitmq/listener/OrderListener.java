@@ -1,9 +1,9 @@
-package com.rabbitmq.demo.listener;
+package org.abdulrahman_rashwan.rabbitmq.listener;
 
-import com.rabbitmq.demo.dto.OrderDTO;
-import com.rabbitmq.demo.service.EmailService;
-import com.rabbitmq.demo.service.InventoryService;
-import com.rabbitmq.demo.service.PaymentService;
+import org.abdulrahman_rashwan.rabbitmq.dto.OrderDTO;
+import org.abdulrahman_rashwan.rabbitmq.service.EmailService;
+import org.abdulrahman_rashwan.rabbitmq.service.InventoryService;
+import org.abdulrahman_rashwan.rabbitmq.service.PaymentService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.core.Message;
 import org.springframework.amqp.core.MessageListener;
